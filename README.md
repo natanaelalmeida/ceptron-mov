@@ -73,8 +73,9 @@ This project has 4 applications.
 ## Flow
 
 This basis demonstrates the process from data collection to the movement of a machine learning model.
-
-![flow](https://user-images.githubusercontent.com/16668958/48453928-8493e700-e79c-11e8-8973-988146e9fcc9.png)
+<p align="center">
+    <img alt="" src="https://user-images.githubusercontent.com/16668958/48453928-8493e700-e79c-11e8-8973-988146e9fcc9.png" />
+<p>
   
   
 1. The application sends the data collected from the sensors in json format to Firebase.
