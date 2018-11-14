@@ -74,6 +74,9 @@ This project has 4 applications.
 
 This basis demonstrates the process from data collection to the movement of a machine learning model.
 
+![flow](https://user-images.githubusercontent.com/16668958/48453928-8493e700-e79c-11e8-8973-988146e9fcc9.png)
+  
+  
 1. The application sends the data collected from the sensors in json format to Firebase.
 
 2. Data is saved in the Firebase Database service.
@@ -99,5 +102,3 @@ This basis demonstrates the process from data collection to the movement of a ma
 12. Predicts entry
 
 13. Returns which movement was executed for the application.
-
-![flow](https://user-images.githubusercontent.com/16668958/48453928-8493e700-e79c-11e8-8973-988146e9fcc9.png)
