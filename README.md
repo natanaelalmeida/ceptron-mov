@@ -52,16 +52,15 @@ $ pip install -U numpy scipy scikit-learn matplotlib pandas Flask
 ## Project Structure
 This project has 4 applications.
 
-- **App:** It collects the data according to the movement that the user has informed by a selector of movements, then it clicks to execute the application to begin to monitor the movements, and when the movement finishes, it stops clicking and the data is sent to the Firebase automatic. The application also implements a way to evaluate the machine learning model that has been trained. The user clicks run, makes the move. To see the answer, he clicks to stop when he finishes making the move. When Stop is clicked, the template will respond to what movement has been made. If it hits, the user marks as True Positive, if not, it marks as False Positive
+- **App-mobile:** It collects the data according to the movement that the user has informed by a selector of movements, then it clicks to execute the application to begin to monitor the movements, and when the movement finishes, it stops clicking and the data is sent to the Firebase automatic. The application also implements a way to evaluate the machine learning model that has been trained. The user clicks run, makes the move. To see the answer, he clicks to stop when he finishes making the move. When Stop is clicked, the template will respond to what movement has been made. If it hits, the user marks as True Positive, if not, it marks as False Positive
 
-- **API:** Api is a rest service that implements the trained model, and receives app evaluation data to classify a new entry.
+- **SRC/API:** Api is a rest service that implements the trained model, and receives app evaluation data to classify a new entry.
 
     To run the API, navigate to the project folder and run the command below:
     ```sh 
     $ python -m api
-    ```
-
-- **Intra:** The project below is responsible for preprocessing the raw data, and extracting raw data characteristics to assemble the training data set.
+    ```    
+- **SRC/Intra:** The project below is responsible for preprocessing the raw data, and extracting raw data characteristics to assemble the training data set.
 
     Para executar o projeto Intra, navegue até a pasta do projeto e execute o comando abaixo:
     ```sh 
@@ -93,10 +92,12 @@ This basis demonstrates the process from data collection to the movement of a ma
 
 9. After the model is trained, the evaluation application sends the new data in json format to the classification service.
 
-10. A serviço recebe os dados, e envia para processa-los e extraír as características.
+10. The service receives the data, and sends to process them and extract the characteristics.
 
 11. The service receives the data, and sends to process them and extract the characteristics.
 
 12. Predicts entry
 
 13. Returns which movement was executed for the application.
+
+![flow](https://user-images.githubusercontent.com/16668958/48453928-8493e700-e79c-11e8-8973-988146e9fcc9.png)
