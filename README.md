@@ -54,7 +54,7 @@ This project has 4 applications.
 
 - **App-mobile:** It collects the data according to the movement that the user has informed by a selector of movements, then it clicks to execute the application to begin to monitor the movements, and when the movement finishes, it stops clicking and the data is sent to the Firebase automatic. The application also implements a way to evaluate the machine learning model that has been trained. The user clicks run, makes the move. To see the answer, he clicks to stop when he finishes making the move. When Stop is clicked, the template will respond to what movement has been made. If it hits, the user marks as True Positive, if not, it marks as False Positive
 
-The figure on the left shows the data collection screen and the one on the right shows the evaluation screen for new entries.
+    The figure on the left shows the data collection screen and the one on the right shows the evaluation screen for new entries.
 
 <div align="center">	
     <img atl="data collect" src="https://user-images.githubusercontent.com/16668958/48455291-bbb8c700-e7a1-11e8-8c69-38a8cf29e484.gif" height="550"/>
