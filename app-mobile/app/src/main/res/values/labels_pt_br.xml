@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="label_pt_br_array">
+        <item>Andar</item>
+        <item>Andar a passos largos</item>
+        <item>Correr</item>
+        <item>Andar de bicicleta</item>
+        <item>Dirigir carro</item>
+        <item>Dirigir moto</item>
+    </string-array>
+</resources>

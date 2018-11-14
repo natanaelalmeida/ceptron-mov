@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ceptron-mov</string>
+    <string name="executar">Executar</string>
+    <string name="parar">Parar</string>
+    <string name="coletando_movimentos">Coletando movimentos</string>
+    <string name="collecting_movements">Collecting movements</string>
+    <string name="qual_movimento_foi_realizado">Qual movimento foi realizado?</string>
+    <string name="which_movement_was_performed">Which movement was performed</string>
+    <string name="an_lisando">Análisando</string>
+    <string name="Analyzing">Analyzing</string>
+    <string name="resposta_correta">Resposta correta?</string>
+    <string name="right_answer">Right answer?</string>
+    <string name="n_o">Não</string>
+    <string name="No">No</string>
+    <string name="sim">sim</string>
+    <string name="yes">Yes</string>
+    <string name="Run">Run</string>
+    <string name="coleta_de_dados">Coleta de dados</string>
+    <string name="data_collect">Data collect</string>
+    <string name="avalia_o">Avaliação</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="Stop">Stop</string>
+</resources>
