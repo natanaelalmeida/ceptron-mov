@@ -5,7 +5,7 @@ is a study project that aims to apply Machine Learning and Data Science concepts
 
 Demonstration on youtube: :tv: https://www.youtube.com/watch?v=CSnNmrJZ-oU&t=4s
 
-obs: The results spoken in the video are in Portuguese (pt-BR). The labels of movements in the dataset as well.
+**obs**: The results spoken in the video are in Portuguese (pt-BR). The labels of movements in the dataset as well.
 
 ## Table of Contents
 
