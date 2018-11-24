@@ -1,9 +1,10 @@
+<img src="https://user-images.githubusercontent.com/16668958/48969466-1cd46c00-efe6-11e8-8a70-6b3fada55e56.png" width="225px" height="200px" align="left"/>
 
 # Ceptron-mov
 :running: ***Ceptron-mov*** 
 is a study project that aims to apply Machine Learning and Data Science concepts to build a human-machine interface that is capable of identifying human physical movements.
 
-Demonstration on youtube: :tv: https://www.youtube.com/watch?v=CSnNmrJZ-oU&t=4s
+:tv: https://www.youtube.com/watch?v=CSnNmrJZ-oU&t=4s
 
 **obs**: The results spoken in the video are in Portuguese (pt-BR). The labels of movements in the dataset as well.
 
